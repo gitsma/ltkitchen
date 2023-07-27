@@ -103,5 +103,38 @@ button:focus {
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
   }
+
+  @media (max-width:480px){
+    .left-slide {
+        width: 50%;
+    }
+    .left-slide h1 {
+        font-size: 30px;
+        margin-top: 0px;
+    }
+    
+    .left-slide p {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    
+    .right-slide {
+        left: 50%;
+        width: 50%;
+    }
+
+    .right-slide > div {
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center center;
+        height: 100%;
+        width: 100%;
+    
+  }
  
-  
+  .slider-container .action-buttons button {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+  }
+}
