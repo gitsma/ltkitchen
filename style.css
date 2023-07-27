@@ -127,6 +127,6 @@ button:focus {
   .slider-container .action-buttons button {
     position: absolute;
     left: 50%;
-    top: 30%;
+    top: 20%;
   }
 }
