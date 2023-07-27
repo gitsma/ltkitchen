@@ -123,18 +123,10 @@ button:focus {
         width: 50%;
     }
 
-    .right-slide > div {
-        background-repeat: no-repeat;
-        background-size: contain;
-        background-position: center center;
-        height: 100%;
-        width: 100%;
-    
-  }
  
   .slider-container .action-buttons button {
     position: absolute;
     left: 50%;
-    top: 50%;
+    top: 30%;
   }
 }
